@@ -37,17 +37,16 @@ class ProductController extends Controller
      */
     public function store(Request $request)
 {
-    // Validamos que los datos lleguen correctamente
+  
     $request->validate([
         'description' => 'required',
         'price' => 'required|numeric',
         'stock' => 'required|integer',
     ]);
 
-    // Creamos el producto en la base de datos
+   
     Product::create($request->all());
 
-    // Redireccionamos a la lista de productos
     return redirect()->route('products.index');
 }
 
@@ -74,14 +73,19 @@ class ProductController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(ProductRequest $request, Product $product): RedirectResponse
-    {
-        $product->update($request->validated());
+  public function update(Request $request, Product $product)
+{
+    $request->validate([
+        'description' => 'required',
+        'price' => 'required|numeric',
+        'stock' => 'required|integer',
+    ]);
 
-        return Redirect::route('products.index')
-            ->with('success', 'Product updated successfully');
-    }
+    $product->update($request->all());
 
+    return redirect()->route('products.index')
+        ->with('success', 'Producto actualizado correctamente');
+}
     public function destroy($id): RedirectResponse
     {
         Product::find($id)->delete();
