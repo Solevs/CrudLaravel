@@ -246,13 +246,13 @@ Route::post('/products', [ProductController::class, 'store'])->name('products.st
 
 - **Error 1071:** solucionado con `defaultStringLength`
 - ### ⚠️ Error de Longitud (AppServiceProvider)
-![Provider](docs/images/provider.png)
+![Provider](docs/images/Provider.png)
 
 ---
 
 - **NPX no reconocido:** instalación de Node.js
 - ### ⚡ Instalación de Node.js
-![Node](docs/images/node.png)
+![Node](docs/images/Node.png)
 
 - **Dropdown/Logout:** Bootstrap CDN
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
