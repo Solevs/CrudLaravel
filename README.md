@@ -11,20 +11,22 @@
 
 ## 📑 Tabla de Contenido
 
-1. Prerrequisitos  
-2. Flujo de Comandos Utilizados  
-3. Configuración Inicial y Optimizaciones  
-4. Estructura de la Base de Datos  
-5. Implementación del CRUD con Ibex  
-6. Sistema de Autenticación  
-7. Personalización de Vistas  
-8. Definición de Rutas  
-9. Arquitectura del Sistema  
-10. Dificultades y Soluciones  
-11. Capturas del Sistema  
-12. Referencias  
-13. Fecha de Ejecución  
-14. Información del Estudiante  
+## 📑 Tabla de Contenido
+
+1. [Prerrequisitos](#1-️-prerrequisitos-ecosistema-de-desarrollo)  
+2. [Flujo de Comandos Utilizados](#2-️-flujo-de-comandos-utilizados)  
+3. [Configuración Inicial y Optimizaciones](#3--configuración-inicial-y-optimizaciones)  
+4. [Estructura de la Base de Datos](#4-️-estructura-de-la-base-de-datos)  
+5. [Implementación del CRUD con Ibex](#5--implementación-del-crud-con-ibex)  
+6. [Sistema de Autenticación](#6--sistema-de-autenticación)  
+7. [Personalización de Vistas](#7--personalización-de-vistas-ajuste-de-campos-del-crud)  
+8. [Definición de Rutas](#8-️-definición-de-rutas)  
+9. [Arquitectura del Sistema](#9--arquitectura-del-sistema)  
+10. [Dificultades y Soluciones](#10-️-dificultades-y-soluciones)  
+11. [Capturas del Sistema](#11--capturas-del-sistema)  
+12. [Referencias](#12--referencias)  
+13. [Fecha de Ejecución](#-fecha-de-ejecución-del-laboratorio)  
+14. [Información del Estudiante](#-información-del-estudiante-footer)  
 
 ---
 
